@@ -25,7 +25,6 @@ body
     border-color: purple;
     float: left;
     padding: 0px;
-    border-top: none;
     background-color:lightslategrey;
 }
 
@@ -38,7 +37,6 @@ body
     border-color: purple;
     float: right;
     padding: 0px;
-    border-top: none;
     background-color: lightslategrey;
 }
 
