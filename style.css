@@ -12,6 +12,8 @@ body
   height: 550px;
   display: inline-block;
   padding: 0px;
+  border-color: purple;
+  border-width: 2px;
 }
 
 .left
@@ -55,7 +57,7 @@ display:inline-block;
 
 .navbar
 {
-    width: 1246px;
+    width: 700px;
     height: 50px;
     border-style: solid;
     border-width: 2px;
@@ -76,4 +78,10 @@ button
 img 
 {
     display: inline;
+}
+
+.Logo 
+{
+width:81px * 12px;
+height: 33px;
 }
