@@ -1,6 +1,6 @@
 body
 {
-    background-color: lightslategrey;
+    background-color: darkred;
     color: white;
     font-family: Verdana;
     text-align: center;
@@ -12,7 +12,7 @@ body
   height: 550px;
   display: inline-block;
   padding: 0px;
-  border-color: purple;
+  border-color: black;
   border-width: 2px;
 }
 
@@ -22,10 +22,10 @@ body
     height: 700px;
     border-style: solid;
     border-width: 2px;
-    border-color: purple;
     float: left;
     padding: 0px;
-    background-color:lightslategrey;
+    background-color:darkred;
+    border-color: black;
 }
 
 .right
@@ -34,10 +34,10 @@ body
     height: 700px;
     border-style: solid;
     border-width: 2px;
-    border-color: purple;
     float: right;
     padding: 0px;
-    background-color: lightslategrey;
+    background-color:darkred;
+    border-color: black;
 }
 
 .content
@@ -59,10 +59,10 @@ display:inline-block;
     height: 50px;
     border-style: solid;
     border-width: 2px;
-    border-color:purple;
     display: inline-block;
     padding: 0px;
-    background-color: lightslategrey;
+    background-color:darkred;
+    border-color: black;
 }
 
 button
@@ -84,17 +84,42 @@ width:81px * 12px;
 height: 33px;
 }
 
-#statuscafe {
+#statuscafe
+{
     padding: .5em;
     background-color: rgb(255, 255, 255);
     color: rgb(25, 0, 255);
     border: 1px solid purple;
 }
 
-#statuscafe-username {
+#statuscafe-username 
+{
     margin-bottom: .5em;
 }
 
-#statuscafe-content {
+#statuscafe-content 
+{
     margin: 0 1em 0.5em 1em;
 }
+
+.LeftDisLink 
+{
+    color: turquoise;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .button:hover 
+  {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .button:active
+  {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
