@@ -6,13 +6,6 @@ body
     text-align: center;
 }
 
-.background
-{
-    background-size: 100%; 
-    background-repeat: no-repeat;
-    background-image: url('./images/BackgroundIndex.gif');
-}
-
 .Frame1
 {
   width: 700px;
@@ -57,7 +50,7 @@ body
 
 p
 {
-    display: inline-block;
+display:inline-block;
 }
 
 .navbar
@@ -67,7 +60,7 @@ p
     border-style: solid;
     border-width: 2px;
     border-color:purple;
-    display: inline-block; 
+    display: inline-block;
     padding: 0px;
     background-color: lightslategrey;
 }
@@ -87,6 +80,21 @@ img
 
 .Logo 
 {
-    width:81px;
-    height: 33px;
+width:81px * 12px;
+height: 33px;
+}
+
+#statuscafe {
+    padding: .5em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(25, 0, 255);
+    border: 1px solid purple;
+}
+
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
 }
