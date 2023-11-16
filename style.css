@@ -6,6 +6,13 @@ body
     text-align: center;
 }
 
+.background
+{
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    background-image: url('./images/BackgroundIndex.gif');
+}
+
 .Frame1
 {
   width: 700px;
@@ -50,7 +57,7 @@ body
 
 p
 {
-display:inline-block;
+    display: inline-block;
 }
 
 .navbar
@@ -60,7 +67,8 @@ display:inline-block;
     border-style: solid;
     border-width: 2px;
     border-color:purple;
-    display: inline-block;
+    /* display: inline-block; */
+    margin-left: 21.9%;
     padding: 0px;
     background-color: lightslategrey;
 }
@@ -80,6 +88,6 @@ img
 
 .Logo 
 {
-width:81px * 12px;
-height: 33px;
+    width:81px * 12px;
+    height: 33px;
 }
